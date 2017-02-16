@@ -1,0 +1,36 @@
+/*
+Theme Name: Austins in America
+Theme URI: http://http://austinsinamericas.co.uk
+Author: Alun Ward
+Author URI: http://eyedivision.com/
+Template: twentyeleven
+Description: Child theme of Twenty Eleven theme for Austins in America
+Version: 0.1.0
+*/
+
+@import url("../twentyeleven/style.css");
+
+.singular.page .hentry {
+	padding:0.5em 0 0;
+}
+.page-template-showcase-php section.recent-posts {
+float: none;
+margin: 0  auto;
+width: 80%;
+}
+/* remove line from caption */
+.wp-caption .wp-caption-text::before {
+color: #666;
+content: '';
+font-size: 14px;
+font-style: normal;
+font-weight: bold;
+margin-right: 0;
+position: absolute;
+left: 10px;
+top: 7px;
+}
+.widget-title {
+	font-size:large;
+	color:#000;
+}
